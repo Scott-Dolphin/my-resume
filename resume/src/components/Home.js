@@ -1,8 +1,8 @@
 import '../App.css'
 
-function Home() {
+function Home({ anchor }) {
     return (
-        <div className="Home" id="Home">
+        <div className="Home" id={anchor}>
             <h1>Nathan Chen</h1>
             <h2>3rd Year Computer Science Major</h2>
 

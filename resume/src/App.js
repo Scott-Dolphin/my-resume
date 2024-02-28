@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="Content">
-        <Home />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Projects />
-        <Contact />
+        <Home anchor={"Home"}/>
+        <About anchor={"About"}/>
+        <Skills anchor={"Skills"}/>
+        <Portfolio anchor={"Portfolio"}/>
+        <Projects anchor={"Projects"}/>
+        <Contact anchor={"Contact"}/>
       </div>
 
     </div>
