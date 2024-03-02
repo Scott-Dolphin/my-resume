@@ -2,7 +2,7 @@ import '../App.css'
 
 function Contact({ anchor }) {
     return (
-        <div className="Section" id="{anchor}">
+        <div className="Section" id={anchor}>
             <h1>How to reach me</h1>
             <h2>:)</h2>
             <p>
