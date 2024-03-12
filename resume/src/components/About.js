@@ -4,10 +4,24 @@ function About({ anchor }) {
     return (
         <div className="Section" id={anchor}>
             <h1>About Me</h1>
-            <h2>:)</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <h3>
+                A resourceful and solution-oriented Computer Science student who is seeking a challenging
+                and rewarding internship that will allow me hone my craft and learn from experienced
+                developers. Proficient in various programming languages with experience in front-end
+                web engineering and Python.
+            </h3>
+            <h2>Hobbies and interests</h2>
+            <ul>
+                <li>Computers</li>
+                <li>Keyboards</li>
+                <li>Music</li>
+                <li>Outdoors</li>
+                <li>Hiking</li>
+                <li>Cars</li>
+                <li>Food</li>
+                <li>Travel</li>
+            </ul>
+
         </div>
     )
 }

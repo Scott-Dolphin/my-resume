@@ -3,6 +3,10 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 
@@ -38,7 +42,7 @@ body {
 }
 
 .Navbar li:hover {
-  transform: translate(1em);
+  transform: translate(10px);
   /* opacity: 0; */
 
 }

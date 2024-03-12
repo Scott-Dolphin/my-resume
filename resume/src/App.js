@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <div className="Content">
         <Home anchor={"Home"}/>
-        <About anchor={"About"}/>
         <Skills anchor={"Skills"}/>
         <Portfolio anchor={"Portfolio"}/>
         <Projects anchor={"Projects"}/>
+        <About anchor={"About"}/>
         <Contact anchor={"Contact"}/>
       </div>
 
